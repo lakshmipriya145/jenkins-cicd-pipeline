@@ -18,7 +18,7 @@ pipeline {
 
             steps {
 
-                sh 'docker run -d -p 5000:5000 jenkins-flask-app'
+                sh 'docker run -d -p 5001:5000 jenkins-flask-app'
 
             }
 
